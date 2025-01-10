@@ -8,12 +8,22 @@
 body {
   font-family: "Poppins", serif;
   font-weight: 400;
+  color: #fff;
 }
 
 a {
   text-decoration: none;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(74, 40, 0, 1) 100%
+  );
+  width: 100%;
 }
