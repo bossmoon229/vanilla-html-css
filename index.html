@@ -156,11 +156,17 @@
             </p>
           </div>
             <div>
-              <input type="email" placeholder="Enter your email" />
-              <button>Continue</button>
+              <input type="email" id="emailField" placeholder="Enter your email" />
+              <button onclick="checkEmail()">Continue</button>
           </div>
         </div>
       </div>
     </div>
+    <script>
+      function checkEmail() {
+        let email = document.querySelector('#emailField');
+        alert(email.value);
+      }
+    </script>
   </body>
 </html>
